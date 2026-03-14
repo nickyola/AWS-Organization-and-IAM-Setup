@@ -10,7 +10,7 @@ Hands-on AWS security project covering multi-account management, IAM configurati
 
 - [Project Overview](#project-overview)
 - [Technologies Used](#technologies-used)
-- [AWS IAM (Identity and Access Management) ](#aws-identity-and-access-management-iam)
+- [AWS IAM (Identity and Access Management)](#aws-identity-and-access-management-iam)
 - [Creating an IAM User in AWS](#creating-an-iam-user-in-aws)
 - [Project Architecture](#project-architecture)
 - [Security Best Practices](#security-best-practices)
@@ -25,6 +25,15 @@ This project demonstrates how to set up an AWS Organization for a company managi
 The project focuses on creating IAM users, grouping them based on roles, and assigning appropriate permissions using IAM policies. It also highlights cloud security best practices such as role-based access control and the principle of least privilege.
 
 ---
+### Architecture Diagram
+
+Management Account (Root)  
+│  
+├── Development Account  
+├── Production Account  
+└── Security Account  
+
+IAM Users → IAM Groups → IAM Policies → AWS Resources
 
 ## Project Objectives
 
@@ -37,6 +46,15 @@ The project focuses on creating IAM users, grouping them based on roles, and ass
 
 ---
 
+## Technologies Used
+
+- AWS Organizations
+- AWS Identity and Access Management (IAM)
+- AWS Management Console
+- Cloud Security Best Practices
+
+  ---
+  
 ## AWS IAM (Identity and Access Management)
 
 AWS Identity and Access Management (IAM) is a service that allows you to create and manage identities and control access to AWS resources.
@@ -202,3 +220,13 @@ This project successfully demonstrated how to set up an AWS Organization and imp
 By creating IAM users, grouping them based on roles, and assigning appropriate permissions, the organization can securely manage access to cloud resources.
 
 This hands-on implementation strengthens practical knowledge of cloud security, governance, and identity management in AWS environments.
+
+ ## Author
+
+Love Daniel  
+Cloud Engineering | Cloud Security | DevOps
+
+linkedin profile: http://linkedin.com/in/daniel-love-558586345
+
+Email:lovedaniels2239@gmail.com
+
